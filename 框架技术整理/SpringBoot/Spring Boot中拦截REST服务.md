@@ -12,7 +12,7 @@
 
 ​	如其名，它就像一个滤网似的介于客户端和服务端之间，任何的请求（根据配置需要拦截的请求地址）进来都会现在过滤器兜一圈，然后再进服务器（可能还由过滤器加了附加的东西）或者就被pass掉了。
 
-​	那么，言归正题，在Spring Boot中我们怎么实现一个过滤器呢，以前在普通的web工程中，我们是有一个web.xml文件的，还有印象的小伙伴应该记得我们是在web.xml中配置过滤器的，设置过滤路径，还可以统一设置编码。那么在Spring Boot中，我们显然是没有web.xml的，这里就需要Java代码来大显身手了。
+​	那么，言归正题，在Spring Boot中我们怎么实现一个过滤器呢，以前在普通的web工程中，我们是有一个web.xml文件的，还有印象的小伙伴应该记得我们是在web.xml中配置过滤器的，设置过滤url，还可以统一设置编码。那么在Spring Boot中，我们显然是没有web.xml的，这里就需要Java代码来大显身手了。
 
 ​	首先javax.servlet提供了一个统一Filter接口，其中就三个方法，大家应该都猜得到，过滤器生命周期三步骤：初始化、处理、销毁，这三个方法就对应这个生命周期，那么自己写的过滤器也就是这样了。
 
@@ -176,51 +176,5 @@ registry.addInterceptor(timeInterceptor).addPathPatterns(参数：存放拦截�
 
 
 
-### 切片（Aspect）
-
-​	要说拦截器已经能定位到方法的话，还有个更贴近方法的拦截方式，它甚至能拿到方法的参数，这就是切片，AspectJ的用法。对于这种拦截方式你可以这么理解，在代码实现上看似方法还是原本的方法，进入执行时原本的方法已经和我们的切片融合了成为了一个新的方法，也就是说，拦截操作成为了执行方法的一部分，而不是像拦截器一样还是在外围。
-
-```java
-package com.xyz.web.aspect;
-
-import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Around;
-import org.aspectj.lang.annotation.Aspect;
-import org.springframework.stereotype.Component;
-
-@Aspect
-@Component
-public class TimeAspect {
-	
-	//@Around标识环绕植入（前后），还有@Before，@After，@AfterThrowing等单功能的注解，
-    //因为@Around具备所有，所以就直接用
-    //后面的是表达式，语义上就是UserController类所有方法植入切片，具体其它表达式可以去官方手册查阅
-    @Around("execution(* com.xyz.web.controller.UserController.*(..))")
-    public Object handleControllerMethod(ProceedingJoinPoint pjp) throws Throwable {
-        System.out.println("time aspect start...");
-
-        //拿到方法参数
-        Object[] objs = pjp.getArgs();
-        for (Object object:objs){
-            System.out.println("arg is "+object);
-        }
-
-        long start = System.currentTimeMillis();
-        Object obj = pjp.proceed();//执行并得到方法返回值
-        System.out.println("time aspect 耗时：" + (System.currentTimeMillis() - start));
-
-        System.out.println("time aspect end...");
-        return obj;
-    }
-}
-
-```
-
-​	可以顺带说下，使用这种方式，切片植入在编译阶段就会完成，所以执行效率很快，使用这种方式，大家肯定会想到AOP，这里要提一下，AOP不是Spring AOP，Spring AOP是AOP的一种实现，这边AspectJ也是AOP的一种实现，区别就是Spring AOP采用代理模式，AspectJ采用字节码操作，后者效率上看就知道高了。
-
-
-
-### 总结
-
-​	针对这三者，我也粗略的画了张图，放在这边便于理解吧。
+### 切片（AOP）
 
