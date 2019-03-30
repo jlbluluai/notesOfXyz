@@ -176,5 +176,52 @@ registry.addInterceptor(timeInterceptor).addPathPatterns(参数：存放拦截�
 
 
 
-### 切片（AOP）
+### 切片（Aspect）
+
+​	要说拦截器已经定位到了方法，还有个方式更厉害，甚至能拿到方法的参数，这就是AspectJ提供的切片，是实现AOP的一种方式（注意AOP不是Spring AOP，Spring AOP也是AOP的一种实现，虽然都是面向切面编程，但是AspectJ某些场合下确实比Spring AOP快，因为AspectJ是编译时就植入了切片，而Spring AOP是通过代理模式实现的，就算动态代理那也需要花费代价创建，所以效率这边AspectJ还是把的死死的）。
+
+​	说了这么多，我们来看看一个切片类怎么写。
+
+```java
+package com.xyz.web.aspect;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Aspect//标明这是一个切片类
+@Component//将切片类注册为一个Bean
+public class TimeAspect {
+
+    //类似@Around的还有@Before，@After，@AfterThrowing这样的注解对应不同切入地点，
+    //@Around已经具备所有方位，所以这边演示就用这个。
+    //后面的表达式简单说就是UserController中所有方法都被植入切片，具体表达式的用法可以去查
+    @Around("execution(* com.xyz.web.controller.UserController.*(..))")
+    public Object handleControllerMethod(ProceedingJoinPoint pjp) throws Throwable {
+        System.out.println("time aspect start...");
+
+        Object[] objs = pjp.getArgs();//获取参数列表
+        for (Object object:objs){
+            System.out.println("arg is "+object);
+        }
+
+        long start = System.currentTimeMillis();
+        Object obj = pjp.proceed();//执行方法
+        System.out.println("time aspect 耗时：" + (System.currentTimeMillis() - start));
+
+        System.out.println("time aspect end...");
+        return obj;
+    }
+}
+```
+
+​	
+
+### 总结
+
+​	针对过滤器，拦截器，切片三者的范围，我也画了张图便于下理解。
+
+![beijing1](https://raw.githubusercontent.com/jlbluluai/notesOfXyz/master/img/framework/springboot/sbfia001.png)
 
