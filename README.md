@@ -1,6 +1,12 @@
+# Table of Contents
 
+* [xyz-notes](#xyz-notes)
+  * [study](#study)
+    * [Java](#java)
+      * [concurrent](#concurrent)
+    * [algorithm](#algorithm)
 
-# notesOfXyz
+# xyz-notes
 
 ## study
 
