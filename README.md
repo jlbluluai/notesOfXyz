@@ -28,3 +28,7 @@
 
 - [动态规划入门](https://github.com/jlbluluai/notesOfXyz/blob/master/study/algorithm/routine/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%85%A5%E9%97%A8.md)
 - [排序统合](https://github.com/jlbluluai/xyz-notes/blob/master/study/algorithm/routine/%E6%8E%92%E5%BA%8F%E7%BB%9F%E5%90%88.md)
+
+### MySQL
+
+- [MySQL的执行流程分析](https://github.com/jlbluluai/xyz-notes/blob/master/study/mysql/MySQL%E7%9A%84%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E5%88%86%E6%9E%90.md)
