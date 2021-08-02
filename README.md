@@ -28,6 +28,8 @@
 
 - [动态规划入门](https://github.com/jlbluluai/notesOfXyz/blob/master/study/algorithm/routine/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%85%A5%E9%97%A8.md)
 - [排序统合](https://github.com/jlbluluai/xyz-notes/blob/master/study/algorithm/routine/%E6%8E%92%E5%BA%8F%E7%BB%9F%E5%90%88.md)
+- [滑动窗口入门（解决子串问题的制胜法宝）](https://github.com/jlbluluai/xyz-notes/blob/master/study/algorithm/routine/滑动窗口入门（解决子串问题的制胜法宝）.md)
+- [BFS算法入门]((https://github.com/jlbluluai/xyz-notes/blob/master/study/algorithm/routine/BFS算法入门.md))
 
 ### MySQL
 
