@@ -6,6 +6,7 @@
       * [jvm](#jvm)
       * [concurrent](#concurrent)
     * [algorithm](#algorithm)
+    * [MySQL](#mysql)
 
 
 # xyz-notes
