@@ -31,6 +31,7 @@
 - [排序统合](https://github.com/jlbluluai/xyz-notes/blob/master/study/algorithm/routine/%E6%8E%92%E5%BA%8F%E7%BB%9F%E5%90%88.md)
 - [滑动窗口入门（解决子串问题的制胜法宝）](https://github.com/jlbluluai/xyz-notes/blob/master/study/algorithm/routine/滑动窗口入门（解决子串问题的制胜法宝）.md)
 - [BFS算法入门](https://github.com/jlbluluai/xyz-notes/blob/master/study/algorithm/routine/BFS算法入门.md)
+- [回溯入门](https://github.com/jlbluluai/xyz-notes/blob/master/study/algorithm/routine/回溯入门.md)
 
 ### MySQL
 
