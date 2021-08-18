@@ -25,6 +25,12 @@
 - [隐式锁之synchronized解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E9%9A%90%E5%BC%8F%E9%94%81%E4%B9%8Bsynchronized%E8%A7%A3%E8%AF%BB.md)
 - [显示锁之Lock解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E6%98%BE%E7%A4%BA%E9%94%81%E4%B9%8BLock%E8%A7%A3%E8%AF%BB.md)
 
+### Spring
+
+#### expand
+
+- [动态注入Bean并可正常注入使用](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/expand/动态注入Bean并可正常注入使用.md)
+
 ### algorithm
 
 - [动态规划入门](https://github.com/jlbluluai/notesOfXyz/blob/master/study/algorithm/routine/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%85%A5%E9%97%A8.md)
