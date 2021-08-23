@@ -42,3 +42,4 @@
 ### MySQL
 
 - [MySQL的执行流程分析](https://github.com/jlbluluai/xyz-notes/blob/master/study/mysql/MySQL%E7%9A%84%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E5%88%86%E6%9E%90.md)
+- [MySQL索引原理解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/mysql/MySQL索引原理解读.md)
