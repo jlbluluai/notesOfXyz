@@ -19,6 +19,9 @@
 
 - [字节码解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/JVM/%E5%AD%97%E8%8A%82%E7%A0%81%E8%A7%A3%E8%AF%BB.md)
 - [Java内存模型解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/JVM/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E8%A7%A3%E8%AF%BB.md)
+- GC解读
+  - [GC解读-宽泛概念](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/JVM/GC%E8%A7%A3%E8%AF%BB-%E5%AE%BD%E6%B3%9B%E6%A6%82%E5%BF%B5.md)
+  - [GC解读-具体实现](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/JVM/GC%E8%A7%A3%E8%AF%BB-%E5%85%B7%E4%BD%93%E5%AE%9E%E7%8E%B0.md)
 
 #### concurrent
 
