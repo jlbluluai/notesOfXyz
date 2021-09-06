@@ -7,6 +7,7 @@
       * [concurrent](#concurrent)
     * [algorithm](#algorithm)
     * [MySQL](#mysql)
+    * [Redis](#redis)
 
 
 # xyz-notes
