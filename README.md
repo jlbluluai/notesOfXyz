@@ -9,7 +9,6 @@
     * [MySQL](#mysql)
     * [Redis](#redis)
     * [Queue](#queue)
-      * [ActiveMQ](#activemq)
 
 
 # xyz-notes
@@ -60,7 +59,4 @@
 
 ### Queue
 
-#### ActiveMQ
-
-- []()
-- []()
+...
