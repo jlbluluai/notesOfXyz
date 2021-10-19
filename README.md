@@ -5,6 +5,7 @@
     * [Java](#java)
       * [jvm](#jvm)
       * [concurrent](#concurrent)
+      * [io](#io)
     * [algorithm](#algorithm)
     * [MySQL](#mysql)
     * [Redis](#redis)
@@ -29,6 +30,10 @@
 
 - [隐式锁之synchronized解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E9%9A%90%E5%BC%8F%E9%94%81%E4%B9%8Bsynchronized%E8%A7%A3%E8%AF%BB.md)
 - [显示锁之Lock解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E6%98%BE%E7%A4%BA%E9%94%81%E4%B9%8BLock%E8%A7%A3%E8%AF%BB.md)
+
+#### io
+
+- [装饰器模式在Java IO的运用](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/io/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%E5%9C%A8Java%20IO%E7%9A%84%E8%BF%90%E7%94%A8.md)
 
 ### Spring
 
