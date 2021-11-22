@@ -41,6 +41,13 @@
 
 ### Spring
 
+#### Spring
+
+- [解读Spring的启动流程-IoC容器的创建](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/Spring/解读Spring的启动流程-IoC容器的创建.md)
+- [解读Spring的bean创建](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/Spring/解读Spring的bean创建.md)
+  - [解读Spring的bean创建时初始化函数的执行顺序](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/Spring/解读Spring的bean创建时初始化函数的执行顺序.md)
+- [解读Spring中AOP如何生效](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/Spring/解读Spring中AOP如何生效.md)
+
 #### Spring MVC
 
 - [解读Spring MVC请求流程](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/Spring%20MVC/%E8%A7%A3%E8%AF%BBSpring%20MVC%E8%AF%B7%E6%B1%82%E6%B5%81%E7%A8%8B.md)
