@@ -9,6 +9,7 @@
     * [Spring](#spring)
       * [Spring MVC](#spring-mvc)
       * [expand](#expand)
+    * [MyBatis](#mybatis)
     * [algorithm](#algorithm)
     * [MySQL](#mysql)
     * [Redis](#redis)
@@ -51,6 +52,12 @@
 #### expand
 
 - [动态注入Bean并可正常注入使用](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/expand/动态注入Bean并可正常注入使用.md)
+
+
+### MyBatis
+
+- [解读MyBatis的实现原理](https://github.com/jlbluluai/xyz-notes/blob/master/study/MyBatis/解读MyBatis的实现原理.md)
+- [解读MyBatis中Mapper接口和xml文件如何对应](https://github.com/jlbluluai/xyz-notes/blob/master/study/MyBatis/解读MyBatis中Mapper接口和xml文件如何对应.md)
 
 ### algorithm
 
