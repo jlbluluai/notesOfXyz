@@ -1,6 +1,6 @@
 ### 题目
 
-![](http://106.15.233.185:8983/94bdc951-e2f0-46fe-b266-b4528cf53daf.png)
+![](http://img.yelizi.top/94bdc951-e2f0-46fe-b266-b4528cf53daf.png$xyz)
 
     
 ### 解法

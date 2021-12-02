@@ -162,7 +162,7 @@ flags（标识）里多了一个ACC_SYNCHRONIZED，在JVM，线程如若要调�
 
 总结下流程：
 
-![](http://106.15.233.185:8983/2ccbfcef-0f95-49e2-8a76-2d5a82e7fcfb.jpg)
+![](http://img.yelizi.top/2ccbfcef-0f95-49e2-8a76-2d5a82e7fcfb.jpg$xyz)
 
 
 
@@ -170,7 +170,7 @@ flags（标识）里多了一个ACC_SYNCHRONIZED，在JVM，线程如若要调�
 
 先来张图
 
-![](http://106.15.233.185:8983/7717c783-1c18-4f1b-ae56-92c30207d79d.jpg)
+![](http://img.yelizi.top/7717c783-1c18-4f1b-ae56-92c30207d79d.jpg$xyz)
 
 1. 线程尝试获取monitor所有权
 2. 若获取失败，则将线程加入同步阻塞队列中等待
