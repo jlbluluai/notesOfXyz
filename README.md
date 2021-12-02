@@ -3,10 +3,12 @@
 * [xyz-notes](#xyz-notes)
   * [study](#study)
     * [Java](#java)
+      * [base](#base)
       * [jvm](#jvm)
       * [concurrent](#concurrent)
       * [io](#io)
     * [Spring](#spring)
+      * [Spring](#spring-1)
       * [Spring MVC](#spring-mvc)
       * [expand](#expand)
     * [MyBatis](#mybatis)
@@ -21,6 +23,13 @@
 ## study
 
 ### Java
+
+#### base
+
+- [包装类型赋值解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/base/%E5%8C%85%E8%A3%85%E7%B1%BB%E5%9E%8B%E8%B5%8B%E5%80%BC%E8%A7%A3%E8%AF%BB.md)
+- [参数传递-值传递？引用传递？](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/base/%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92-%E5%80%BC%E4%BC%A0%E9%80%92%EF%BC%9F%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92%EF%BC%9F.md)
+- [枚举解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/base/%E6%9E%9A%E4%B8%BE%E8%A7%A3%E8%AF%BB.md)
+- [泛型解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/base/%E6%B3%9B%E5%9E%8B%E8%A7%A3%E8%AF%BB.md)
 
 #### jvm
 
