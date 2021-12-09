@@ -30,6 +30,7 @@
 - [参数传递-值传递？引用传递？](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/base/%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92-%E5%80%BC%E4%BC%A0%E9%80%92%EF%BC%9F%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92%EF%BC%9F.md)
 - [枚举解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/base/%E6%9E%9A%E4%B8%BE%E8%A7%A3%E8%AF%BB.md)
 - [泛型解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/base/%E6%B3%9B%E5%9E%8B%E8%A7%A3%E8%AF%BB.md)
+- [String解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/base/String解读.md)
 
 #### jvm
 
