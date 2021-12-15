@@ -42,6 +42,7 @@
 
 #### concurrent
 
+- [并发之 volatile 解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E5%B9%B6%E5%8F%91%E4%B9%8B%20volatile%20%E8%A7%A3%E8%AF%BB.md)
 - [隐式锁之synchronized解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E9%9A%90%E5%BC%8F%E9%94%81%E4%B9%8Bsynchronized%E8%A7%A3%E8%AF%BB.md)
 - [显示锁之Lock解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E6%98%BE%E7%A4%BA%E9%94%81%E4%B9%8BLock%E8%A7%A3%E8%AF%BB.md)
 
