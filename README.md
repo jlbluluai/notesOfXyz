@@ -43,7 +43,7 @@
 #### concurrent
 
 - [并发之 volatile 解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E5%B9%B6%E5%8F%91%E4%B9%8B%20volatile%20%E8%A7%A3%E8%AF%BB.md)
-- [并发之 synchronized 解读]()
+- [并发之 synchronized 解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E5%B9%B6%E5%8F%91%E4%B9%8B%20synchronized%20%E8%A7%A3%E8%AF%BB.md)
 - [显示锁之Lock解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E6%98%BE%E7%A4%BA%E9%94%81%E4%B9%8BLock%E8%A7%A3%E8%AF%BB.md)
 
 #### io
@@ -94,7 +94,7 @@
 
 ### Redis
 
-- [Redis之 基础介绍]()
+- [Redis之 基础介绍](https://github.com/jlbluluai/xyz-notes/blob/master/study/Redis/Redis%E4%B9%8B%20%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.md)
 - [Redis三大经典问题分析](https://github.com/jlbluluai/xyz-notes/blob/master/study/Redis/Redis三大经典问题分析.md)
 - [Redis搭建主从、sentinel、cluster](https://github.com/jlbluluai/xyz-notes/blob/master/study/Redis/Redis搭建主从、sentinel、cluster.md)
 
