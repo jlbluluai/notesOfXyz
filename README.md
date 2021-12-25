@@ -44,6 +44,7 @@
 
 - [并发之 volatile 解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E5%B9%B6%E5%8F%91%E4%B9%8B%20volatile%20%E8%A7%A3%E8%AF%BB.md)
 - [并发之 synchronized 解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E5%B9%B6%E5%8F%91%E4%B9%8B%20synchronized%20%E8%A7%A3%E8%AF%BB.md)
+- [并发之 CAS 解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E5%B9%B6%E5%8F%91%E4%B9%8B%20CAS%20%E8%A7%A3%E8%AF%BB.md)
 - [显示锁之Lock解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/concurrent/%E6%98%BE%E7%A4%BA%E9%94%81%E4%B9%8BLock%E8%A7%A3%E8%AF%BB.md)
 
 #### io
@@ -87,9 +88,10 @@
 
 ### MySQL
 
-- [MySQL的执行流程分析](https://github.com/jlbluluai/xyz-notes/blob/master/study/mysql/MySQL%E7%9A%84%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E5%88%86%E6%9E%90.md)
-- [MySQL索引原理解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/mysql/MySQL索引原理解读.md)
-- [MySQL锁解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/mysql/MySQL锁解读.md)
+- [MySQL之 字符集和比较规则](https://github.com/jlbluluai/xyz-notes/blob/master/study/MySQL/MySQL%E4%B9%8B%20%E5%AD%97%E7%AC%A6%E9%9B%86%E5%92%8C%E6%AF%94%E8%BE%83%E8%A7%84%E5%88%99.md)
+- [MySQL的执行流程分析](https://github.com/jlbluluai/xyz-notes/blob/master/study/MySQL/MySQL%E7%9A%84%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E5%88%86%E6%9E%90.md)
+- [MySQL索引原理解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/MySQL/MySQL索引原理解读.md)
+- [MySQL锁解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/MySQL/MySQL锁解读.md)
 
 
 ### Redis
