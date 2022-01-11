@@ -59,6 +59,7 @@
 - [解读Spring的bean创建](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/Spring/解读Spring的bean创建.md)
   - [解读Spring的bean创建时初始化函数的执行顺序](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/Spring/解读Spring的bean创建时初始化函数的执行顺序.md)
 - [解读Spring中AOP如何生效](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/Spring/解读Spring中AOP如何生效.md)
+- [Spring之Transaction分析](https://github.com/jlbluluai/xyz-notes/blob/master/study/Spring/Spring/Spring之Transaction分析.md)
 
 #### Spring MVC
 
