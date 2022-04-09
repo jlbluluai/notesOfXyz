@@ -16,6 +16,7 @@
     * [MySQL](#mysql)
     * [Redis](#redis)
     * [Queue](#queue)
+    * [Manual](#manual)
 
 
 # xyz-notes
@@ -50,7 +51,7 @@
 
 #### io
 
-- [IO模型解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/io/IO模型解读.md)
+- [IO模型解读](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/io/IO模型解读.md)~~~~
 - [装饰器模式在Java IO的运用](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/io/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%E5%9C%A8Java%20IO%E7%9A%84%E8%BF%90%E7%94%A8.md)
 - [TCP的粘包拆包简介](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/io/TCP的粘包拆包简介.md)
 - [Socket入门并引出同步阻塞概念](https://github.com/jlbluluai/xyz-notes/blob/master/study/Java/io/Socket入门并引出同步阻塞概念.md)
@@ -111,3 +112,8 @@
 ### Queue
 
 ...
+
+
+### Manual
+
+- [Java单元测试的简单实践手册.md](https://github.com/jlbluluai/xyz-notes/blob/master/study/maual/Java单元测试的简单实践手册.md)
